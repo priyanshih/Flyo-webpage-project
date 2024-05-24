@@ -1,0 +1,379 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+.header {
+    font-family: 'Raleway';
+    font-weight: 400, 700;
+    text-decoration: none;
+    color: black;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+#email {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    text-decoration: none;
+    color: grey;
+    border-color: black;
+}
+
+Button {
+    background-color: hsl(224, 93%, 58%);
+    border: 1px;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    color: white;
+    border-radius: 2px;
+}
+
+button:active, button:hover {
+    background-color: hsl(239, 56%, 60%);
+}
+
+#detailsHeading {
+    font-family: 'Raleway';
+    font-weight: 400, 700;
+    text-decoration: solid;
+    font-size: 25px;
+}
+
+#details {
+    background-color: hsl(240, 75%, 98%);
+    height: 40vw;
+    width: 100vw;
+}
+
+p {
+    font-family: 'Open Sans';
+    font-weight: 400;
+}
+
+#flyoWorks {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    color:hsl(170, 45%, 43%);
+}
+
+#flyoWorks:active {
+    color:hsl(170, 44%, 59%);
+}
+
+#ceoPhoto {
+    height: 50px;
+    border-radius: 100%;
+    margin-right: 10%;
+}
+
+#icon-quotes {
+    height: 12px;
+    width: 13px;
+}
+
+#ceoPic {
+    display: flex;
+}
+
+#accessDeatils {
+    display: block;
+    margin-top: 15%;
+}
+
+#end {
+    background-color: hsl(243, 87%, 12%);
+    color: white;
+}
+
+#logo2 {
+    padding-top: 50px;
+    padding-left: 50px;
+    height: 40px;
+}
+
+.column2 {
+    text-decoration: none;
+    color: white;
+    font-family: 'Open Sans';
+    font-weight: 400; 
+}
+
+.column3 {
+    text-decoration: none;
+    color: white;
+    font-family: 'Open Sans';
+    font-weight: 400; 
+}
+
+.column2:active, .column3:active, .column2:hover, .column3:hover {
+    color: hsl(224, 93%, 58%);
+}
+
+.fa {
+    padding: 3px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.fa-facebook {
+   color: white;
+   border: 10px;
+   border-color: white;
+   border-radius: 50%;
+}
+ 
+.fa-twitter {
+    color: white;
+    border: 10px;
+    border-color: white;
+    border-radius: 50%;
+}
+
+.fa-instagram {
+    color: white;
+    border: 10px;
+    border-color: white;
+    border-radius: 50%;
+}
+
+.fa:active, .fa:hover {
+    color: hsl(224, 93%, 58%);
+
+}
+
+@media (min-width: 320px) and (max-width: 1000px) {
+    body {
+        padding-top: 10px;
+        background-image: url(images/bg-curve-mobile.svg);
+        background-repeat: repeat-x;
+        background-position-y: 40em;
+        background-attachment: scroll;
+        margin-left: 0px;
+        margin-right: 0px;
+    }  
+
+    #logo {
+        height: 28px;
+        padding-right: 10px;
+        margin-left: 1vh;
+    }
+
+    #introduction {
+        padding-left: 5vw;
+    }
+
+    #introductionHeading {
+        display: block;
+        font-family: 'Raleway';
+        font-weight: 400, 700;
+        text-align: center;
+        font-size: 25px;
+        position: relative;
+
+    }
+
+    #introDetails {
+        display: block;
+        font-family: 'Open Sans';
+        font-weight: 400;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    #illustration1 {
+        display: inline;
+        position: center;
+        height: 200px;
+        padding-left: 30px;
+    }
+
+    #email {
+        width: 325px;
+        height: 38px;
+        margin-left: 6%;
+    }
+
+    #emailButton {
+        margin-top: 10px;
+        width: 330px;
+        height: 40px;
+        margin-left: 6%;
+    }
+
+    #pageEnd1 {
+        padding-bottom: 11vh;
+    }
+
+    #details {
+        width: 95vw;
+        padding: 10vw;
+        margin-top: 0px;
+        height: 150vw;
+    }
+    #detailsHeading {
+        font-size: 1.2em;
+    }
+
+    #illustration2 {
+        position: relative;
+        display: inline;
+        background-color: hsl(240, 75%, 98%);
+        height: 15em;
+        padding-left: 3em;
+        width: 102vw;
+        margin-bottom: 0px;
+
+    }
+
+    #ceoNote {
+        background-color: white;
+        padding: 5%;
+        display: block;
+
+    }
+
+    #earlyAccess {
+        width: 100vw;
+        background-color: hsl(238, 22%, 44%);
+        color: white; 
+        padding: 7.5vw;  
+        text-align: center;
+    }
+    
+    #end {
+        width: 100vw;
+        padding: 7.5vw;
+    }
+
+    #column1 {
+        padding-left: 5vw;
+        padding: 5vw;
+    }
+
+    #column2 {
+        padding-left: 5vw;
+    }
+
+    #column3 {
+        padding-left: 5vw;
+    }
+
+    #column4 {
+        text-align: center;
+    }
+}
+
+@media (min-width: 1250px) {
+    body {
+        padding-top: 60px;
+        background-image: url(images/bg-curve-desktop.svg);
+        background-repeat: repeat-x;
+        background-position-y: 38em;
+        margin-left: 0px;
+        margin-right: 0px;
+    } 
+
+    #logo {
+        padding-right: 500px;
+    }
+
+    #introductionHeading {
+        padding-top: 80px;
+        display: block;
+        width: 520px;
+        font-family: 'Raleway';
+        font-weight: 400, 700;
+        padding-left: 5%;
+    }
+
+    #introDetails {
+        display: block;
+        width: 520px;
+        padding-left: 5%;
+    }
+
+    #illustration1 {
+        display: block;
+        position: absolute;
+        top: 150px;
+        right: 100px;
+        height: 400px;
+    }
+
+    #email {
+        width: 220px;
+        height: 30px;
+        margin-left: 5%;
+    }
+
+    #emailButton {
+        margin-left: 10px;
+        width: 150px;
+        height: 30px;
+    }
+
+    #pageEnd1 {
+        height: 15vw;
+    }
+
+    #details {
+        padding: 5%;
+    }
+
+    #detailsHeading {
+        font-size: 3vh;
+    }
+
+    #contentBlock {
+        display: flex;
+        flex-direction: column;
+        width: 40vh;
+    }
+
+    #illustration2 {
+        position: absolute;
+        right: 10vh;
+        top: 800px;
+        height: 20vw;
+    }
+
+    #ceoNote {
+        display: flex;
+        flex-direction: column;
+        width: 25vw;
+        background-color: white;
+        padding: 3%;
+    }
+
+    #earlyAccess {
+        width: 110vw;
+        height: 20vh;
+        background-color: hsl(238, 22%, 44%);
+        color: white;  
+        display: flex;
+        justify-content: space-evenly;  
+    }
+    
+    #end {
+        height: 30vh;
+        width: 110vw;
+    }
+    
+    #contact {
+        display: flex;
+        padding: 40px;
+        justify-content: space-evenly;
+    }
+}
+    
